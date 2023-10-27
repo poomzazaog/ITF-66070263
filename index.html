@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Denim</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        function setUsername() {
+            document.getElementById("username-p").innerHTML = document.getElementById("username").value + "'s Gallery";
+        }
+        function setProfileImage() {
+            document.getElementById("ProfileImage1").style.backgroundImage = "url(" + document.getElementById("ProfileImage").value;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="mine">
+        <div class="avatar">
+            <div class="profile-img" id="ProfileImage1">
+            </div>
+            <div class="noti">6</div>
+        </div>
+        <div class="username">
+            <a href="https://www.google.com/" class="on-hover">
+                <p style="font-size: x-large; font-weight: 400;" id="username-p">Tanakrit Sutthipong</p>
+            </a>
+        </div>
+        <div class="input-group">
+            <div><label style="font-weight: 400;">Username</label><input style="margin-left: 10px;" type="text" 
+                    id="username"><button style="margin-left: 10px;" id="setUsername" onclick="setUsername()">Apply</button></div>
+            <div><label style="font-weight: 400;">Profile Image</label><input style="margin-left: 10px;" type="text" 
+                    id="ProfileImage"><button style="margin-left: 10px;" id="setProfileImage" onclick="setProfileImage()">Apply</button></div>
+        <div class="gallery">
+            <div class="gallery-item col-span">
+                <img src="https://www.nutravet.co.uk/wp-content/uploads/2022/05/calm-cat-1-1.jpg" height="300" width="625">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.newscientist.com/wp-content/uploads/2021/11/24114209/PRI_211645505.jpg?crop=1:1,smart&width=1200&height=1200&upscale=true" height="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/I/71VyN5a4ElL._UC256,256_CACC,256,256_.jpg" height="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.meesho.com/images/products/122474100/vdowq_256.webp" height="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.meesho.com/images/products/234994923/x9arx_256.webp" height="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://m.media-amazon.com/images/I/71cA-OvgVoL._UC256,256_CACC,256,256_.jpg" height="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa_aeUX6Xoz6XVjZ7mt7iL_nipr6Sg-QmmTw&usqp=CAU" height="300">
+            </div>
+            <div class="gallery-item row-span">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1oBnZpq2_13ET1QpZt9uisx5hQTjH90Plg&usqp=CAU" height="625" width="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMho2sqI7sx5dkQq-CYl6FMjklqO7RceYNg&usqp=CAU" height="300">
+            </div>
+            <div class="gallery-item">
+                <img src="https://styles.redditmedia.com/t5_2tbjw/styles/communityIcon_kbxnqi2xciqa1.png" height="300">
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
